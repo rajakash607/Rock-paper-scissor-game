@@ -1,0 +1,28 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-image: linear-gradient(to right, #36d1dc, #5b86e5);
+}
+#rock,
+#paper,
+#scissor {
+  display: inline-block;
+}
+#heading {
+  display: flex;
+  justify-content: space-between;
+}
+.hover:hover {
+  height: 18em;
+  width: 12em;
+}
+.sad {
+  height: 18em;
+  width: 12em;
+}
+.score {
+  display: flex;
+  justify-content: space-between;
+}

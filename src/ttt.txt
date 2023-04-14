@@ -1,0 +1,13 @@
+function RockImage() {
+  const handleClick = () => {
+    console.log("hello");
+  };
+
+  return (
+    <img
+      src="https://www.rock-paper-scissors-game.com/i/rock.png"
+      alt="Rock"
+      onClick={handleClick}
+    />
+  );
+}
